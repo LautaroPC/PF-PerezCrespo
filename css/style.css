@@ -120,9 +120,12 @@ body{
         margin-right: 5%;
         font-size: 20px;
     }
+    .main__bank li{
+        list-style-type:disc;
+    }
     /* Imagen de la pagina principal */
     .main__img{
-        height: 400px;
+        height: 500px;
         object-fit: cover;
         border-radius: 100px;
     }
@@ -166,6 +169,7 @@ body{
         justify-content: center;
         text-align: center;
         margin: 20px 40px;
+        padding: 0px 18px;
     }
     /*tamaño del mapa*/
     .main__map{
@@ -221,12 +225,12 @@ body{
         }
         /*Tamaño de la imagen principal*/
         .main__img{
-            height: 200px;
+            height: 230px;
             border-radius: 40px;
             object-fit: cover;
         }
         .main__index{
-            width: 60%;
+            width: 70%;
         }
         /* solapa de adopcion en las fotos */
         .main__card{
@@ -244,7 +248,7 @@ body{
             border-radius: 15px;
             justify-content: center;
             text-align: center;
-            margin: 20px 40px;
+            margin: 20px 60px;
         }
         /* tamaño, color de las letras en titulos y parrafos*/
         h1{
@@ -293,6 +297,11 @@ body{
         .main__map{
             width:280px;
             height:250px;
+        }
+        /*disposición de los botones*/
+        button{
+            margin-top: 5px;
+            margin-bottom: 10px;
         }
     /*#########################################################################*/
     /*FOOTER*/
