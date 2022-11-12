@@ -126,6 +126,9 @@ body{
         object-fit: cover;
         border-radius: 100px;
     }
+    .main__index{
+        width: 60%;
+    }
     /*efecto de foto - seccion adopcion*/
     .main__adop{
         height: 200px;
