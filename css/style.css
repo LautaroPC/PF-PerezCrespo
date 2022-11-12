@@ -225,6 +225,9 @@ body{
             border-radius: 40px;
             object-fit: cover;
         }
+        .main__index{
+            width: 60%;
+        }
         /* solapa de adopcion en las fotos */
         .main__card{
             padding:10px;
