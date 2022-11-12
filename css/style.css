@@ -123,6 +123,7 @@ body{
     /* Imagen de la pagina principal */
     .main__img{
         height: 400px;
+        object-fit: cover;
         border-radius: 100px;
     }
     /*efecto de foto - seccion adopcion*/
@@ -218,7 +219,8 @@ body{
         /*Tamaño de la imagen principal*/
         .main__img{
             height: 200px;
-            border-radius: 50px;
+            border-radius: 40px;
+            object-fit: cover;
         }
         /* solapa de adopcion en las fotos */
         .main__card{
