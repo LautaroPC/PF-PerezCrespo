@@ -97,7 +97,7 @@ body{
     }
     .main__p{
         text-align:center;
-        justify-content:center;
+        margin: 0px 10px;
     }
     /*tamaño de letra en comentario seccion contacto*/
     #letra{
