@@ -95,6 +95,9 @@ body{
         text-align: justify;
         font-size: 20px;
     }
+    .main__line{
+        justify-content: center;
+    }
     /*tamaño de letra en comentario seccion contacto*/
     #letra{
         font-size: 18px;
