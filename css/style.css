@@ -244,13 +244,14 @@ body{
             width: 70%;
         }
         /* solapa de adopcion en las fotos */
-        .main__card{
-            padding:10px;
-        }
         .card__dog{
             height: 130px;
             border-radius: 30px;
             margin: 5px;
+        }
+        .main__card{
+            padding-bottom: 10px;
+            padding-top: 10px;
         }
         /*recuadro de la imagen en seccion adopcion*/
         .cards{
@@ -259,7 +260,7 @@ body{
             border-radius: 15px;
             justify-content: center;
             text-align: center;
-            margin: 20px 60px;
+            margin: 10px 60px;
         }
         /*información del banco en donacion*/
         .main__bank{
