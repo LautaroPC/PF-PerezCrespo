@@ -120,8 +120,19 @@ body{
         margin-right: 5%;
         font-size: 20px;
     }
+    /*información del banco en donacion*/
+    .main__bank{
+        margin:0% 20%;
+    }
     .main__bank li{
-        list-style-type:disc;
+        border: 1px solid lightcoral;
+        box-shadow: 2px 1px 3px 3px lightsalmon;
+        border-radius: 15px;
+        justify-content: center;
+        text-align: center;
+        margin: 20px 10px;
+        padding: 0px 10px;
+        list-style-type:none;
     }
     /* Imagen de la pagina principal */
     .main__img{
@@ -249,6 +260,19 @@ body{
             justify-content: center;
             text-align: center;
             margin: 20px 60px;
+        }
+        /*información del banco en donacion*/
+        .main__bank{
+            margin: 0% 10%;
+            padding-left: 2%;
+        }
+        .main__bank li{
+            padding-left: 2%;
+            margin: 5% 0% 
+        }
+        .main__bank ul{
+            padding:0%;
+            margin:0%
         }
         /* tamaño, color de las letras en titulos y parrafos*/
         h1{
