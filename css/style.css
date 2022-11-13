@@ -239,7 +239,7 @@ body{
         }
         /*Tamaño de la imagen index*/
         .main__img{
-            height: 230px;
+            height: 310px;
             border-radius: 40px;
             object-fit: cover;
         }
@@ -248,7 +248,7 @@ body{
         }
         /*Tamaño y efecto de foto - seccion adopcion*/
         .main__adop{
-            height: 150px;
+            height: 170px;
             object-fit: cover;
             border-radius: 10%;
         }
