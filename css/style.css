@@ -244,6 +244,17 @@ body{
             margin: 0px 8px;
             padding:0px;
         }
+        /*centrar cada seccion de la barra de navegacion*/
+        .header__nav ul{
+            padding-left: 0px;
+        }
+        /* Movimiento y color de la barra y sus items */
+        .header__nav ul li:hover{
+            transform: translateY(-2px);
+        }
+        .header__box:hover{
+            padding: 1px;
+        }
     /*#########################################################################*/
     /*MAIN*/
         /* Centrar la informacion */
