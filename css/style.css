@@ -2,7 +2,6 @@
 /*#####################################################################################*/
 /*                                        DESKTOP                                      */
 /*#####################################################################################*/
-
 /*BODY HTML*/
 /* Fondo de la pagina*/
 body{
@@ -27,7 +26,7 @@ body{
         margin-top: 0px;
         width: 100%;
     }
-    /*Estilo a los items de la barra en general*/
+    /* Estilo a los items de la barra en general */
     nav ul {
         display: flex;
         flex-direction: row;
@@ -35,22 +34,37 @@ body{
         font-size: 30px;
         list-style-type: none;
     }
-    /*Color de la barra y posición*/
+    /* Color de la barra y posición */
     .header__nav{
         background-color:green;
         opacity: 0.90;
     }
     .nav__bar{
         color:white;
-        list-style-type:none; /*sacar viñeta o punto*/
+        list-style-type:none; /*sacar viñeta o punto */
     }
-    /*movimiento y color de la barra y sus items*/
+    /*centrar cada seccion de la barra de navegacion*/
+    .header__box{
+        text-align: center;
+    }
+    .header__nav ul{
+        padding-left: 0px;
+    }
+    .header__nav ul li{
+        transition:all 0.4s ease;
+    }
+    /* Movimiento y color de la barra y sus items */
     .header__nav ul li:hover{
-        transform: translateY(-2px);
+        transform: translateY(-3px);
         transition:all 0.4s ease;
     }
     .nav__bar:hover{
-        color: aqua;
+        color: white;
+        font-weight: bold;
+    }
+    .header__box:hover{
+        background-color: rgb(8, 33, 8);
+        padding: 2px;;
     }
 /*#####################################################################################*/
 /*MAIN*/
@@ -58,14 +72,14 @@ body{
     main{
         line-height: 2; /*INTERLINEADO*/
         background-color:white;
-        opacity: 0.90;   /* OPACIDAD DEL FONDO DONDE ESTA EL CUERPO DEL TEXTO CON LA IMAGEN DEL FONDO*/
+        opacity: 0.90; /* OPACIDAD DEL FONDO DONDE ESTA EL CUERPO DEL TEXTO CON LA IMAGEN DEL FONDO*/
     }
     /* Margen y tipo de texto de los formularios */
     form{
         margin: 0 10%;
         text-align: center;
     }
-    /* Disposicion, tamaño, color de las letras en titulos y parrafos*/
+    /* Disposicion, tamaño, color de las letras en titulos y parrafos */
     h1{
         background-position:center;
         font-size: 50px;
@@ -95,15 +109,15 @@ body{
         text-align: justify;
         font-size: 20px;
     }
-    /*tamaño de letra en comentario seccion contacto*/
+    /* Tamaño de letra en comentario seccion contacto */
     #letra{
         font-size: 18px;
     }
-    /*Tamaño de letra en la barra de asunto en seccion de contacto*/
+    /* Tamaño de letra en la barra de asunto en seccion de contacto */
     #affair{
         font-size: 20px;
     }
-    /* Tamaño de la letra de los botones*/
+    /* Tamaño de la letra de los botones */
     input{
         font-size:  18px;
     }
@@ -120,7 +134,7 @@ body{
         margin-right: 5%;
         font-size: 20px;
     }
-    /*información del banco en donacion*/
+    /* Información del banco en donacion */
     .main__bank{
         margin:0% 20%;
     }
@@ -145,13 +159,13 @@ body{
     .main__index{
         width: 40%;
     }
-    /*Tamaño y efecto de foto - seccion adopcion*/
+    /* Tamaño y efecto de foto - seccion adopcion */
     .main__adop{
         height: 300px;
         object-fit: cover;
         border-radius: 10%;
     }
-    /*  centrar la informacion */
+    /* Centrar la informacion */
     main{
         display: flex;
         flex-direction: column;
@@ -160,7 +174,7 @@ body{
         margin-right: 20%; 
         padding-bottom:20px;
     }
-    /* solapa de adopcion en las fotos */
+    /* Solapa de adopcion en las fotos */
     .main__card{
         display: flex;
         flex-wrap: wrap;
@@ -175,7 +189,7 @@ body{
         justify-content: space-evenly;
         margin: 10px;
     }
-    /*recuadro de la imagen en seccion adopcion*/
+    /* Recuadro de la imagen en seccion adopcion*/
     .cards{
         border: 1px solid lightcoral;
         box-shadow: 2px 1px 3px 3px lightsalmon;
@@ -185,7 +199,7 @@ body{
         margin: 20px 40px;
         padding: 0px 18px;
     }
-    /*tamaño del mapa*/
+    /* Tamaño del mapa*/
     .main__map{
         width:600px;
         height:450px;
@@ -213,18 +227,18 @@ body{
 /*#####################################################################################*/
   
     @media screen and (max-width:768px) {
-        /*margen de la foto*/
+        /*Margen de la foto*/
         body{
             background-position:-200px; 
         }
     /*#########################################################################*/
     /*HEADER*/
-        /*Margen entre el logo y la barra de navegación*/
+        /* Margen entre el logo y la barra de navegación */
         .header__nav{
             margin-top: 10px;
             margin-bottom: 15px;
         }
-        /*Tamaño de la barra de navegacion*/
+        /* Tamaño de la barra de navegacion */
         nav ul{
             font-size: 15px;
             margin: 0px 8px;
@@ -232,12 +246,12 @@ body{
         }
     /*#########################################################################*/
     /*MAIN*/
-        /*  centrar la informacion */
+        /* Centrar la informacion */
         main{
             margin: 0% 5%;
             padding-bottom:5px;
         }
-        /*Tamaño de la imagen index*/
+        /* Tamaño de la imagen index */
         .main__img{
             height: 310px;
             border-radius: 40px;
@@ -246,13 +260,13 @@ body{
         .main__index{
             width: 70%;
         }
-        /*Tamaño y efecto de foto - seccion adopcion*/
+        /* Tamaño y efecto de foto - seccion adopcion */
         .main__adop{
             height: 170px;
             object-fit: cover;
             border-radius: 10%;
         }
-        /* solapa de adopcion en las fotos */
+        /* Solapa de adopcion en las fotos */
         .card__dog{
             height: 130px;
             border-radius: 30px;
@@ -262,11 +276,11 @@ body{
             padding-bottom: 10px;
             padding-top: 10px;
         }
-        /*recuadro de la imagen en seccion adopcion*/
+        /* Recuadro de la imagen en seccion adopcion */
         .cards{
             margin: 10px 60px;
         }
-        /*información del banco en donacion*/
+        /* Información del banco en donacion */
         .main__bank{
             margin: 0% 10%;
             padding-left: 2%;
@@ -279,7 +293,7 @@ body{
             padding:0%;
             margin:0%
         }
-        /* tamaño, color de las letras en titulos y parrafos*/
+        /* Tamaño, color de las letras en titulos y parrafos */
         h1{
             font-size: 22px;
             margin-top: 5px;
@@ -302,11 +316,11 @@ body{
             text-align:center;
             margin: 0px 10px;
         }
-        /*Tamaño de letra en la barra de asunto en seccion de contacto*/
+        /* Tamaño de letra en la barra de asunto en seccion de contacto */
         #affair{
             font-size: 14px;
         }
-        /*tamaño de letra en comentario seccion contacto*/
+        /* Tamaño de letra en comentario seccion contacto */
         #letra{
             font-size: 14px;
         }
@@ -321,16 +335,16 @@ body{
         .main__donations li {
             font-size: 14px;
         }
-        /*tamaño del cuadro de comentario en contactar*/
+        /* Tamaño del cuadro de comentario en contactar */
         textarea{
             width: 285px;
         }
-        /*tamaño del mapa*/
+        /* Tamaño del mapa */
         .main__map{
             width:280px;
             height:250px;
         }
-        /*disposición de los botones*/
+        /* Disposición de los botones */
         button{
             margin-top: 5px;
             margin-bottom: 10px;
