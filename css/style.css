@@ -20,12 +20,13 @@ body{
     margin: 0px; /* QUITA EL INTERLINEADO QUE HAY ENTRE LA LISTA Y LOS TITULOS*/
 }
 /*#####################################################################################*/
-/*HEADER*/
+/*DIV*/
     /* Logo */
-    .header__logo{
+    .img__logo{
         margin-top: 0px;
         width: 100%;
     }
+/*HEADER*/
     /* Estilo a los items de la barra en general */
     nav ul {
         display: flex;
@@ -64,6 +65,15 @@ body{
     }
     .header__box:hover{
         background-color: rgb(8, 33, 8);
+    }
+    /* Movimiento del boton en seccion adopción */
+    .button__contact{
+        transition:all 0.4s ease;     
+    }
+    .button__contact:hover{
+        background-color: lightcoral;
+        transform: scale(1.2,1.2);
+        transition:all 0.4s ease;  
     }
 /*#####################################################################################*/
 /*MAIN*/
@@ -109,7 +119,7 @@ body{
         font-size: 20px;
     }
     /* Tamaño de letra en comentario seccion contacto */
-    #letra{
+    #commentLyrics{
         font-size: 18px;
     }
     /* Tamaño de letra en la barra de asunto en seccion de contacto */
@@ -224,7 +234,7 @@ body{
 /*#####################################################################################*/
 /*                                        CELULAR                                      */
 /*#####################################################################################*/
-  
+
     @media screen and (max-width:768px) {
         /*Margen de la foto*/
         body{
