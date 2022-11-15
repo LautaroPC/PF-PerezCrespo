@@ -216,6 +216,7 @@ body{
     .main__map{
         width:600px;
         height:450px;
+        padding: 10px 0px;
     }
 /*#####################################################################################*/
 /*FOOTER*/
@@ -337,7 +338,9 @@ body{
         .main__p{
             text-align:center;
             margin: 0px 10px;
+            padding: 10px 0px;
             font-size: 17px;
+            line-height: 1.5; /*INTERLINEADO*/
         }
         /* Tamaño de letra en la barra de asunto en seccion de contacto */
         #affair{
