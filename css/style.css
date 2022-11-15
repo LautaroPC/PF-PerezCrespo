@@ -120,11 +120,11 @@ body{
     }
     /* Tamaño de letra en comentario seccion contacto */
     #commentLyrics{
-        font-size: 18px;
+        font-size: 20px;
     }
     /* Tamaño de letra en la barra de asunto en seccion de contacto */
     #affair{
-        font-size: 20px;
+        font-size: 18px;
     }
     /* Tamaño de la letra de los botones */
     input{
