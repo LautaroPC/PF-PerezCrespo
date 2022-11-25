@@ -1,0 +1,46 @@
+/* tarjetas de adopcion */
+.main__card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    padding:20px;
+    .card__dog{
+        border: 1px solid lightcoral;
+        box-shadow: 2px 2px 2px 2px lightsalmon;
+        border-radius: 20px;
+        justify-content: center;
+        text-align: center;
+        margin: 20px 40px;
+        padding: 0px 18px;
+        overflow: hidden;
+        transition: all 400ms ease-out;
+        cursor: default;
+        &:hover {
+            box-shadow: 5px 5px 20px lightsalmon;
+             transform: translateY(-3%);
+        }
+        .dog__info{
+            height: 200px;
+            object-fit: cover;
+            border-radius: 30px;
+            justify-content: space-evenly;
+            margin: 10px;
+        }
+    }  
+}
+
+@media screen and (max-width:768px) {
+    .main__card{
+        padding-bottom: 10px;
+        padding-top: 10px;
+        .card__dog{
+            margin: 15px 60px;
+            .dog__info{
+                height: 130px;
+                border-radius: 30px;
+                margin: 5px;
+            }
+        }
+    }
+}

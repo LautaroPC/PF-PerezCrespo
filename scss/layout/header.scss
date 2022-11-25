@@ -1,0 +1,58 @@
+/*DIV - LOGO*/
+    .img__logo{
+        margin-top: 0px;
+        width: 100%;
+    }
+/*HEADER*/
+.header__nav{
+    background-color:$nav_color;
+    opacity: 0.90;
+    ul{
+        padding-left: 0px; 
+        li{
+            transition:all 0.4s ease;
+            &:hover{
+                transform: translateY(-3px);
+                transition:all 0.4s ease;
+            }
+        }
+    }
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 30px;
+    list-style-type: none;
+}
+.header__box{
+    text-align: center;
+    &:hover{
+        background-color: #082108;
+    }
+    .nav__bar{
+        color:$five_color;
+        list-style-type:none;
+        &:hover{
+            font-weight: bold;
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    header{
+        margin-top: 10px;
+        margin-bottom: 13px;
+    }        
+    .header__nav ul{
+        padding-left: 0px;
+        li:hover{
+            transform: translateY(-2px);
+        }
+    }
+    nav ul{
+        font-size: 15px;
+        margin: 0px 8px;
+        padding:0px;
+    }
+}

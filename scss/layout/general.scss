@@ -1,0 +1,23 @@
+/*BODY HTML*/
+/* Fondo de la pagina */
+body{
+    background-image: url("../img/backPhoto.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position:center; 
+    background-attachment: fixed;
+    top: 0; 
+    left:0; 
+}
+/* Letra de TODA la pagina */
+*{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    margin: 0px;
+}
+@media screen and (max-width:768px) {
+    /* Margen de la foto */
+    body{
+        background-position:-200px; 
+    }
+}
