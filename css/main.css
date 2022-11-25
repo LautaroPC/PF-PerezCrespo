@@ -108,6 +108,9 @@ nav ul {
       font-weight: bold; }
 
 @media screen and (max-width: 768px) {
+  .img__logo {
+    width: 140%;
+    margin-left: -71px; }
   header {
     margin-top: 10px;
     margin-bottom: 13px; }
