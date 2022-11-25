@@ -1,5 +1,9 @@
 @charset "UTF-8";
-/**/
+/*Desktop*/
+.main__p {
+  font-size: 26px;
+  margin-bottom: 4px; }
+
 /* tarjetas de adopcion */
 .main__card {
   display: flex;
