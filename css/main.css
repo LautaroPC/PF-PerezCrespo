@@ -139,7 +139,8 @@ main {
 h1 {
   color: #f8613ff1;
   font-size: 50px;
-  background-position: center; }
+  background-position: center;
+  margin-top: 20px; }
 
 .margin_des, h2, h3, h4 {
   margin: 0 5%; }
@@ -190,10 +191,15 @@ input {
   height: 500px;
   width: 50%;
   object-fit: cover;
-  border-radius: 30px; }
+  border-radius: 30px;
+  margin: 15px 0px; }
 
 .main__index {
   width: 40%; }
+
+/* Formulario */
+.form-index {
+  margin: 20px 0px; }
 
 /*ADOPCION*/
 /* Tamaño y efecto de foto */
@@ -289,9 +295,13 @@ form {
   .main__img {
     height: 310px;
     border-radius: 40px;
-    object-fit: cover; }
+    object-fit: cover;
+    margin: 0px; }
   .main__index {
     width: 70%; }
+  /* formulario */
+  .form-index {
+    margin: 10px 0px; }
   /*ADOPCION*/
   /* Tamaño y efecto de foto */
   .main__adop {
