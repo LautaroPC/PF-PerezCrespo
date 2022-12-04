@@ -3,8 +3,7 @@
     /*GENERAL*/
     /* Color, opacidad e interlineado del contenido */
         line-height: 2; 
-        background-color:#ffffff;
-        opacity: 0.88; 
+        background-color:rgba(255, 255, 255,0.88);
         /* FLEXBOX */
         display: flex;
         flex-direction: column;
@@ -87,6 +86,10 @@
     .form-index{
         margin:20px 0px;
     }
+    .bar-index{
+        width: 60%;
+    }
+
     /*ADOPCION*/
     /* Tamaño y efecto de foto */
     .main__adop{
@@ -124,6 +127,12 @@
     /* Tamaño de letra en comentario */
     #commentLyrics{
         font-size: 18+2px;
+        padding-left: 5px;
+    }
+    /* Tamaño de la barra para rellenar */
+    input{
+        width: 100%;
+        padding-left: 5px;
     }
     /* Tamaño de letra en la barra de asunto */
     #affair{
@@ -203,7 +212,6 @@
             font-size: $p_mobile;
         }
 
-
         /*INDEX*/
         /* Imagen y formato - carrousel */
         .main__img{
@@ -218,6 +226,9 @@
         /* formulario */
         .form-index{
             margin:10px 0px;
+        }
+        .bar-index{
+            width: 90%;
         }
 
         /*ADOPCION*/
@@ -244,9 +255,14 @@
         }     
     
         /*CONTACTO*/
+        /* Tamaño del formulario */
+        input{
+            width: 90%;
+        } 
         /* Tamaño de letra en comentario */
         #commentLyrics{
             font-size: 7*2px;
+            margin: 1px 0px;
         }  
         /* Tamaño de letra en la barra de asunto */
         #affair{

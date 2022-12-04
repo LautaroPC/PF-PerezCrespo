@@ -11,6 +11,7 @@
   justify-content: space-evenly;
   padding: 20px; }
   .main__card .card__dog {
+    background-color: white;
     border: 1px solid lightcoral;
     box-shadow: 2px 2px 2px 2px lightsalmon;
     border-radius: 20px;
@@ -125,8 +126,7 @@ main {
   /*GENERAL*/
   /* Color, opacidad e interlineado del contenido */
   line-height: 2;
-  background-color: #ffffff;
-  opacity: 0.88;
+  background-color: rgba(255, 255, 255, 0.88);
   /* FLEXBOX */
   display: flex;
   flex-direction: column;
@@ -201,6 +201,9 @@ input {
 .form-index {
   margin: 20px 0px; }
 
+.bar-index {
+  width: 60%; }
+
 /*ADOPCION*/
 /* Tamaño y efecto de foto */
 .main__adop {
@@ -233,7 +236,13 @@ input {
 /*CONTACTO*/
 /* Tamaño de letra en comentario */
 #commentLyrics {
-  font-size: 20px; }
+  font-size: 20px;
+  padding-left: 5px; }
+
+/* Tamaño de la barra para rellenar */
+input {
+  width: 100%;
+  padding-left: 5px; }
 
 /* Tamaño de letra en la barra de asunto */
 #affair {
@@ -302,6 +311,8 @@ form {
   /* formulario */
   .form-index {
     margin: 10px 0px; }
+  .bar-index {
+    width: 90%; }
   /*ADOPCION*/
   /* Tamaño y efecto de foto */
   .main__adop {
@@ -320,9 +331,13 @@ form {
       padding: 0%;
       margin: 0%; }
   /*CONTACTO*/
+  /* Tamaño del formulario */
+  input {
+    width: 90%; }
   /* Tamaño de letra en comentario */
   #commentLyrics {
-    font-size: 14px; }
+    font-size: 14px;
+    margin: 1px 0px; }
   /* Tamaño de letra en la barra de asunto */
   #affair {
     font-size: 14px; }
