@@ -11,6 +11,7 @@
         margin-left: 20%;
         margin-right: 20%;
         padding-bottom:20px;
+        border-radius: 80px;
     }
     /* Disposicion, tamaño y color de la tipografia */
     h1{ 
@@ -134,9 +135,11 @@
         width: 100%;
         padding-left: 5px;
     }
-    /* Tamaño de letra en la barra de asunto */
+    /* Tamaño de letra y barra de asunto */
     #affair{
         font-size: 9*2px;
+        width: 100%;
+        height: 40px;
     }
     /* Margen y tipo de texto */
     form{
@@ -162,6 +165,7 @@
         main{
            margin: 0% 5%;
            padding-bottom:5px;
+           border-radius: 50px;
         }
         /* Disposicion, tamaño y color de la tipografia */
         h1{
@@ -264,9 +268,10 @@
             font-size: 7*2px;
             margin: 1px 0px;
         }  
-        /* Tamaño de letra en la barra de asunto */
+        /* Tamaño de letra y barra de asunto */
         #affair{
             font-size: 7*2px;
+            width: 90%;
         }
         /* Tamaño del cuadro de comentario */
         textarea{

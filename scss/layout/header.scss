@@ -6,7 +6,7 @@
 /*HEADER*/
 .header__nav{
     background-color:$nav_color;
-    opacity: 0.90;
+    
     ul{
         padding-left: 0px; 
         li{
@@ -28,10 +28,12 @@ nav ul {
 .header__box{
     text-align: center;
     &:hover{
-        background-color: #082108;
+        background-color: #165d16;
+        border-radius: 20px;
+       
     }
     .nav__bar{
-        color:$five_color;
+        color:$tertiaty_color;
         list-style-type:none;
         &:hover{
             font-weight: bold;
